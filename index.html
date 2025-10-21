@@ -118,22 +118,27 @@
 
 <script>
 const foods = [
-  { name: "Apple", img: "images/apple.jpeg", type: "real" },
-  { name: "Carrot", img: "images/carrot.jpeg", type: "real" },
-  { name: "Banana", img: "images/banana.jpeg", type: "real" },
-  { name: "Egg", img: "images/egg.jpg", type: "real" },
-  { name: "Fish", img: "images/fish.jpg", type: "real" },
-  { name: "Bread", img: "images/bread.jpg", type: "processed" },
-  { name: "Cheese", img: "images/cheese.jpg", type: "processed" },
-  { name: "Tofu", img: "images/tofu.jpg", type: "processed" },
-  { name: "Yogurt", img: "images/yogurt.jpg", type: "processed" },
-  { name: "Canned Beans", img: "images/canned_beans.jpg", type: "processed" },
-  { name: "Instant Noodles", img: "images/instant_noodles.jpg", type: "ultra" },
-  { name: "Soft Drink", img: "images/soda.jpg", type: "ultra" },
-  { name: "Potato Chips", img: "images/chips.jpg", type: "ultra" },
-  { name: "Chocolate Bar", img: "images/chocolate.jpg", type: "ultra" },
-  { name: "Burger", img: "images/burger.jpg", type: "ultra" }
+  { name: "baked potato", img: "images/(P) baked potato.jpg", type: "processed" },
+  { name: "canned corn", img: "images/(P) canned corn.jpg", type: "processed" },
+  { name: "carrot juice", img: "images/(P) carrot juice.png", type: "processed" },
+  { name: "cream", img: "images/(P) cream.png", type: "processed" },
+  { name: "flour", img: "images/(P) flour.jpg", type: "processed" },
+  { name: "wholemeal bread", img: "images/(P) wholemeal bread.jpg", type: "processed" },
+
+  { name: "carrot", img: "images/(R) carrot.jpg", type: "real" },
+  { name: "corn", img: "images/(R) corn.webp", type: "real" },
+  { name: "fresh milk", img: "images/(R) fresh milk.jpg", type: "real" },
+  { name: "potato", img: "images/(R) potato.jpg", type: "real" },
+  { name: "wholewheat", img: "images/(R) wholewheat.jpg", type: "real" },
+
+  { name: "carrot cake", img: "images/(U) carrot cake.png", type: "ultra" },
+  { name: "cookies", img: "images/(U) cookies.jpg", type: "ultra" },
+  { name: "corn chip", img: "images/(U) corn chip.jpg", type: "ultra" },
+  { name: "french fries", img: "images/(U) french fries.jpg", type: "ultra" },
+  { name: "ice cream", img: "images/(U) ice cream.jpg", type: "ultra" },
+  { name: "white bread", img: "images/(U) white bread.jpg", type: "ultra" }
 ];
+
 
 const container = document.getElementById("items");
 foods.forEach((food, i) => {
